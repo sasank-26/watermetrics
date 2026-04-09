@@ -5,5 +5,10 @@ __all__ = [
     "data",
     "graph",
     "model",
+    "baselines",
+    "compare",
+    "visualize",
+    "wqi",
     "train",
+    "tuning",
 ]

@@ -30,7 +30,7 @@ class ProjectConfig:
     dropout: float = 0.1
 
     # Training setup
-    epochs: int = 20
+    epochs: int = 3
     batch_size: int = 32
     lr: float = 1e-3
     weight_decay: float = 1e-5

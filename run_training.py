@@ -20,7 +20,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--ocean-file", type=str, default="monthly_ocean.csv")
     parser.add_argument("--land-file", type=str, default="weekly_land.csv")
 
-    parser.add_argument("--epochs", type=int, default=20)
+    parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--seq-len", type=int, default=8)
