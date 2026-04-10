@@ -233,7 +233,7 @@ The resultant validation figures representing the predictive accuracy of multi-s
 \caption{Comprehensive Diagnostic Testing Benchmarks and Error Metrics}
 \begin{center}
 \renewcommand{\arraystretch}{1.5}
-\begin{tabular}{l c c c c}
+\begin{tabularx}{\columnwidth}{X c c c c}
 \toprule
 \textbf{Predictive Framework} & \textbf{MAE} & \textbf{RMSE} & \textbf{R²} & \textbf{MAPE (\%)} \\
 \midrule
@@ -244,7 +244,7 @@ Pure Standalone GNN Topology       & 0.1401 & 0.2573 & 0.9519 & 10.36 \\
 Baseline Random Forest$^{1}$       & 0.0196 & 0.1532 & 0.9828 & 2.87 \\
 \bottomrule
 \multicolumn{5}{p{0.95\columnwidth}}{\footnotesize $^{1}$ Note: High apparent accuracy in RF is a deceptive result of tabular flattening, which artificially induces data-leakage via direct auto-correlation memorization. Deep sequence architectures mathematically isolate historical bounds forbidding sequence leakage.}
-\end{tabular}
+\end{tabularx}
 \label{tab:detailed_metrics_full}
 \end{center}
 \end{table}
